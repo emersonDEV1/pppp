@@ -1,0 +1,49 @@
+.menu-home svg{
+    fill: #ffffff;
+}
+
+.menu-home a:hover, .menu-home a:hover svg{
+    color: #C5AE16;
+    fill: #C5AE16;
+}
+
+.menu-categorias a{
+    color: #C5AE16;
+}
+
+.tabela-servicos th{
+    color: #C5AE16;
+    fill: #C5AE16;
+}
+
+.foto-profissional .nome{
+    color: #C5AE16;
+}
+
+.footer .block .title{
+    color: #C5AE16;
+}
+
+.produto .preco{
+    color: #C5AE16;
+}
+
+.instalar-app{
+    color: #C5AE16;
+}
+
+.unidade-atual{
+    color: #C5AE16;
+}
+
+.unidade-atual-home button{
+    color: #C5AE16;
+}
+
+.sel-unidade a{
+    border: 1px solid #C5AE16;
+}
+
+.bt-link:hover{
+    color: #C5AE16;
+}

@@ -1,0 +1,116 @@
+.calendario{
+    font-family: Arial;
+    display: inline-block;
+    position: absolute;
+	text-align: left;
+	font-size: 14px;
+	width: 290px;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 5px;
+    background: #212121;
+    z-index: 9999;
+    box-shadow: 4px 4px 16px  #000000;
+}
+
+.calendario .close{
+    text-align: right;
+    color: #f0f0f0;
+}
+
+.calendario .close button{
+    border: 1px outset #999999;
+    border-radius: 3px;
+    background: none;
+    cursor: pointer;
+    outline: none;
+    color: #ffffff;
+    font-size: 22px;
+    margin-bottom: 14px;
+    margin-left: 10px;
+    vertical-align: middle;
+    padding: 2px 8px;
+}
+
+.tituloCalendario{
+    display: inline-block;
+	font-size: 14px;
+	padding: 3px 0;
+	font-weight: bold;
+    margin: 0 10px 12px 10px;
+    min-width: 170px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.calendario .navigation{
+    text-align: center;
+}
+
+.calendario .navigation button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 0 4px;
+}
+
+.dias{
+    text-align: left;
+}
+
+.dias button{
+    display: inline-block;
+	text-align: center;
+	width: 32px;
+	height: 32px;
+	line-height: 28px;
+	margin:3px;
+	font-size: 12px;
+	border:none;
+	outline: none;
+	vertical-align: top;
+	cursor: pointer;
+	border-radius: 3px;
+    background: #595959;
+    color: #ffffff;
+}
+
+.dias .diaCal:hover{
+    background: #737373;
+}
+
+.dias .diaTitCal{
+	text-align: center;
+	display: inline-block;
+	width: 32px;
+	font-size: 10px;
+	margin: 3px;
+    color: #f0f0f0;
+}
+
+.dias .diaCal:disabled{
+	opacity: 0.2;
+}
+
+.dias .diaCalEmpty{
+	opacity: 0.2;
+    
+}
+
+.dias .diaCalCurrent{
+    background: rgba(255, 0, 0, 0.4);
+}
+
+.dias .diaCalCurrent:hover{
+    background: rgba(255, 0, 0, 0.7);
+}
+
+/*MOBILE*/
+@media screen and (max-width: 700px){
+    .calendario{
+        left: calc(50% - 145px);
+    }
+}
